@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Project Setup initiated - minor modifications have taken on main File">
-      <change beforePath="$PROJECT_DIR$/Roboshop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Roboshop.sh" afterDir="false" />
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Frontend update1">
+      <change afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Frontend.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +20,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Shell Script" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sairam\IdeaProjects\script_setup\components" />
       <recent name="C:\Users\Sairam\IdeaProjects\script_setup\.idea\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -58,7 +61,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639223125428</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="missing command added">
+      <created>1639224059835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639224059835</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Frontend update1">
+      <created>1639224399696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639224399696</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Frontend update1">
+      <created>1639224740921</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1639224740921</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +100,8 @@
     <MESSAGE value="Project Setup initiated" />
     <MESSAGE value="Project Setup initiated - minor changes have taken in file Location" />
     <MESSAGE value="Project Setup initiated - minor modifications have taken on main File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Setup initiated - minor modifications have taken on main File" />
+    <MESSAGE value="missing command added" />
+    <MESSAGE value="Frontend update1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend update1" />
   </component>
 </project>
