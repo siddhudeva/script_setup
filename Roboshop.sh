@@ -23,6 +23,8 @@ if [ ! -e ./components/"${Cmpnt}".sh ]; then
   exit
 fi
 
+bash components/${Cmpnt}.sh
+
 Status() {
   if [ "$1" -ne 0 ]; then
   echo -e "\e[m ${2} is Failure\e[1m"
@@ -31,6 +33,7 @@ else
   exit 1
 fi
 }
+
 
 
 
