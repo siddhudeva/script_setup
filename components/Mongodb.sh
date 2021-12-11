@@ -1,2 +1,6 @@
 #!/bin/bash
-echo This is mongodb File by Roboshop
+#This is mongodb File by Roboshop
+
+
+source components/common.sh
+
