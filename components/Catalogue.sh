@@ -8,8 +8,14 @@ source components/common.sh
 yum install nodejs make gcc-c++ -y &>>${LOG_file}
 Status $? "Nodejs Installation process"
 
-${USER} &>>${LOG_file}
-Status $? "Creating and Switching to user"
+cat /etc/passwd | grep roboshop &>>${LOG_file}
+if [ "$?" -ne 0 ]; then
+  useradd roboshop
+fi
+Status $? "roboshop user status"
+
+su - roboshop &>>${LOG_file}
+Status $? "Switching to user"
 
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>${LOG_file}
 Status $? "Catalogue file Download"

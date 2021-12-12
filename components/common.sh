@@ -9,14 +9,6 @@ Status() {
   fi
 }
 Log_file=/tmp/roboshop.log
-rm -r "${Log_file}"
+rm -f ${Log_file}
 
-
-USER=$(id -u)
-if [ "${USER}" - eq 1001 ]; then
-  su - roboshop
-  else
-    useradd roboshop
-     su - roboshop
-fi
 
