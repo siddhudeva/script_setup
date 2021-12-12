@@ -12,13 +12,13 @@ Status $? "Nginx services"
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip" &>>Log_file
 Status $? "Download of project"
 
-rm -rf /usr/share/nginx/html/* &>>/tmp/Logs &>>Log_file
+rm -rf /usr/share/nginx/html/*  &>>Log_file
 Status  $? "Removed Nginx Files is"
 
 cd /usr/share/nginx/html/ && unzip /tmp/frontend.zip &>>Log_file
 Status $? "Unzipping"
 
-mv frontend-main/* . && mv static/* . &>>Log_file
+mv ./frontend-main/* . && mv ./static/* . &>>Log_file
 Status $? "all content moved to Frontend File"
 
 rm -rf frontend-master static README.md &>>Log_file

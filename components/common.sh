@@ -9,5 +9,5 @@ Status() {
   fi
 }
 export Log_file="/tmp/Logs"
-rm -rf /tmp/Logs
+rm -rf ${Log_file}
 
