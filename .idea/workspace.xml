@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="catalogue services modification done at useradding step">
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="correction at log file in Catalogue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalogue.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Frontend.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639306162992</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="correction at log file in Catalogue">
+      <created>1639306642232</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1639306642232</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +282,7 @@
     <MESSAGE value="mongodb updated v1.0" />
     <MESSAGE value="catalogue services added" />
     <MESSAGE value="catalogue services modification done at useradding step" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue services modification done at useradding step" />
+    <MESSAGE value="correction at log file in Catalogue" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction at log file in Catalogue" />
   </component>
 </project>

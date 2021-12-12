@@ -5,33 +5,33 @@
 
 source components/common.sh
 
-yum install nodejs make gcc-c++ -y &>>${Log_file}
+yum install nodejs make gcc-c++ -y &>>"${Log_file}"
 Status $? "Nodejs Installation process"
 
-cat /etc/passwd | grep roboshop &>>${Log_file}
-if [ "$?" -ne 0 ]; then
+grep roboshop /etc/passwd &>>"${Log_file}"
+if [ $? -ne 0 ]; then
   useradd roboshop
 fi
 Status $? "roboshop user status"
 
-su - roboshop &>>${Log_file}
+su - roboshop &>>"${Log_file}"
 Status $? "Switching to user"
 
-curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>${Log_file}
+curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
 Status $? "Catalogue file Download"
 
-unzip -o /tmp/catalogue.zip &>>${Log_file} && mv catalogue-main catalogue
+unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
 Status $? "Unzipping content"
 
-cd /home/roboshop/catalogue && npm install &>>${Log_file}
+cd /home/roboshop/catalogue && npm install "&>>${Log_file}"
 Status $? "npm install"
 
-exit &>>${Log_file}
+exit &>>"${Log_file}"
 Status $? "existed from user account"
 
 mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
 Status $? "catalogue services placing "
 
-systemctl daemon-reload &>>${Log_file}
-systemctl enable catalogue &>>${Log_file} && systemctl start catalogue
+systemctl daemon-reload &>>"${Log_file}"
+systemctl enable catalogue &>>"${Log_file}" && systemctl start catalogue
 Status $? "catalogue service"
