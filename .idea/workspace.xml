@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Frontend update1">
-      <change afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Frontend complete script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Cart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Cart.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Frontend.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +15,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectId" id="22ATLzsbNRd5fLAEnfxKQUX8XNX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Shell Script" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
   </component>
@@ -32,6 +46,7 @@
       <recent name="C:\Users\Sairam\IdeaProjects\script_setup\.idea\components" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Project Setup initiated">
       <created>1639219980674</created>
@@ -82,7 +97,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639224740921</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Frontend complete script">
+      <created>1639229682732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1639229682732</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Frontend complete script">
+      <created>1639229756297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1639229756297</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Frontend complete script" />
+      <created>1639279348120</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639279348120</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +138,7 @@
     <MESSAGE value="Project Setup initiated - minor modifications have taken on main File" />
     <MESSAGE value="missing command added" />
     <MESSAGE value="Frontend update1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frontend update1" />
+    <MESSAGE value="Frontend complete script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend complete script" />
   </component>
 </project>
