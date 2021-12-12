@@ -12,7 +12,7 @@ Status $? "MongoDb installation"
 systemctl enable mongod && systemctl start mongod
 Status $? "Mongodb enabling and starting"
 
-sed -i "s/127.0.0.0/0.0.0.0/g" /etc/mongod.conf
+sed -i "s/127.0.0.1/0.0.0.0/g" /etc/mongod.conf
 Status $? "configaration update"
 
 systemctl restart mongod
