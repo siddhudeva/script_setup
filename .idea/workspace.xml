@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="correction at log file in Catalogue">
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Rabbitmq Component added v1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/rabbitmq.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/rabbitmq.sh" afterDir="false" />
     </list>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639307282571</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Rabbitmq Component added v1.0">
+      <created>1639316141463</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1639316141463</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +297,7 @@
     <MESSAGE value="catalogue services added" />
     <MESSAGE value="catalogue services modification done at useradding step" />
     <MESSAGE value="correction at log file in Catalogue" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction at log file in Catalogue" />
+    <MESSAGE value="Rabbitmq Component added v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rabbitmq Component added v1.0" />
   </component>
 </project>
