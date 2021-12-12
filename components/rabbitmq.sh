@@ -15,8 +15,9 @@ systemctl enable rabbitmq-server &>>"${Log_file}" && systemctl start rabbitmq-se
 Status $? "Enabling and install"
 
 rabbitmqctl list_users | grep roboshop &>>"${Log_file}"
-  if [ $? - ne 0 ]; then
+  if [ "$?" -ne 0 ]; then
 rabbitmqctl add_user roboshop roboshop123 &>>"${Log_file}" && rabbitmqctl set_user_tags roboshop administrator &>>"${Log_file}"
+fi
 Status $? "rabbitmq user adding"
 
 rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*" &>>"${Log_file}"
