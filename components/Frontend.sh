@@ -27,5 +27,5 @@ Status $? "Removed Unwanted files is"
 mv localhost.conf /etc/nginx/default.d/roboshop.conf &>>${Log_file}
 Status $? "Moving the conf file to proper Location"
 
-systemctl restart nginx &>>/tmp/Logs &>>${Log_file}
+systemctl restart nginx &>>${Log_file}
 Status $? "Restarting of Nginx is"

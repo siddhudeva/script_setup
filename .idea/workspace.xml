@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="catalogue services modification done at useradding step" />
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="catalogue services modification done at useradding step">
+      <change beforePath="$PROJECT_DIR$/components/Catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalogue.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Frontend.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639305843249</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="catalogue services modification done at useradding step">
+      <created>1639306162992</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1639306162992</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
