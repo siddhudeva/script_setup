@@ -16,14 +16,13 @@ sed -i "s/127.0.0.1/0.0.0.0/g" /etc/mongod.conf &>>${Log_file}
 Status $? "configaration update"
 
 systemctl restart mongod &>>${Log_file}
-Status $? "restarting of MongoDb"
+Status $? "restarting of MongoDB"
 
 curl -s -L -o /tmp/mongodb.zip "https://github.com/roboshop-devops-project/mongodb/archive/main.zip" &>>${Log_file}
 Status $? "Schema downloading"
 
 cd /tmp/ && unzip mongodb.zip &>>${Log_file}
-Status $? "Schema downloading"
-cd mongodb-main &>>${Log_file}
+Status $? "Unzipping "
 
 mongo < catalogue.js && mongo < users.js &>>${Log_file}
-Status $? "Schema downloading"
+Status $? "Schema Installation"
