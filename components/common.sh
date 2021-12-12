@@ -8,6 +8,8 @@ Status() {
     echo -e "\e[1;32m ${2} - Success\e[0m"
   fi
 }
-Log_file="/tmp/roboshop.txt"
+Log_file=/tmp/roboshop.log
+rm -r "${Log_file}"
+
 
 
