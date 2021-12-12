@@ -3,7 +3,7 @@
 # Date : 12/12/2021
 # Description : This is a redis component of roboshop project
 
-source component/common.sh
+source components/common.sh
 
 curl -L https://raw.githubusercontent.com/roboshop-devops-project/redis/main/redis.repo -o /etc/yum.repos.d/redis.repo &>>"${Log_file}"
 Status $? "Creating Redis Repository "
