@@ -26,5 +26,5 @@ Status $? "Unzipping "
 
 cd ./mongodb-main
 
-mongo < catalogue.js && mongo < users.js &>>${Log_file}
+mongo < catalogue.js &>>${Log_file}  && mongo < users.js &>>${Log_file}
 Status $? "Schema Installation"
