@@ -21,7 +21,7 @@ Status $? "restarting of MongoDB"
 curl -s -L -o /tmp/mongodb.zip "https://github.com/roboshop-devops-project/mongodb/archive/main.zip" &>>${Log_file}
 Status $? "Schema downloading"
 
-cd /tmp/ && unzip mongodb.zip &>>${Log_file}
+cd /tmp/ && unzip -o mongodb.zip &>>${Log_file}
 Status $? "Unzipping "
 
 cd ./mongodb-main
