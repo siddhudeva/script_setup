@@ -6,6 +6,5 @@ Status() {
     exit 1
     else
     echo -e "\e[1;32m ${2} - Success\e[0m"
-    exit
   fi
 }
