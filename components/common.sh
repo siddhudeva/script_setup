@@ -8,6 +8,7 @@ Status() {
     echo -e "\e[1;32m ${2} - Success\e[0m"
   fi
 }
-export Log_file="/tmp/Logs"
-rm -rf ${Log_file}
+Log_file="/tmp/Logs"
+rm -r /tmp/Logs
+
 
