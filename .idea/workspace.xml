@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="common script edited v1.0">
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="common script edited v1.1&#10;logs added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Frontend.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639280331223</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="common script edited v1.1&#10;logs added">
+      <created>1639280721271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1639280721271</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +167,7 @@
     <MESSAGE value="Frontend complete script" />
     <MESSAGE value="common script edited" />
     <MESSAGE value="common script edited v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="common script edited v1.0" />
+    <MESSAGE value="common script edited v1.1&#10;logs added" />
+    <option name="LAST_COMMIT_MESSAGE" value="common script edited v1.1&#10;logs added" />
   </component>
 </project>
