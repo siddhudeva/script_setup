@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Mongodb Log files added v1">
-      <change beforePath="$PROJECT_DIR$/components/Mongodb.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Mongodb.sh" afterDir="false" />
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="mongodb updated v1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalogue.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639292498459</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="mongodb updated">
+      <created>1639292698267</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1639292698267</updated>
+    </task>
+    <task id="LOCAL-00024" summary="mongodb updated v1.0">
+      <created>1639292791127</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1639292791127</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +251,8 @@
     <MESSAGE value="Mongodb added-v1" />
     <MESSAGE value="Mongodb Log files added" />
     <MESSAGE value="Mongodb Log files added v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mongodb Log files added v1" />
+    <MESSAGE value="mongodb updated" />
+    <MESSAGE value="mongodb updated v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongodb updated v1.0" />
   </component>
 </project>
