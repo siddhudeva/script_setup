@@ -24,5 +24,7 @@ Status $? "Schema downloading"
 cd /tmp/ && unzip mongodb.zip &>>${Log_file}
 Status $? "Unzipping "
 
+cd ./mongodb-main
+
 mongo < catalogue.js && mongo < users.js &>>${Log_file}
 Status $? "Schema Installation"
