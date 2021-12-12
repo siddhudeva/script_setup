@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Rabbitmq Component added v1.1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="Redis database server setup is done version1.0">
       <change beforePath="$PROJECT_DIR$/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/redis.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/redis.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639317651603</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Redis database server setup is done version1.0">
+      <created>1639318953948</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1639318953948</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +319,7 @@
     <MESSAGE value="correction at log file in Catalogue" />
     <MESSAGE value="Rabbitmq Component added v1.0" />
     <MESSAGE value="Rabbitmq Component added v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rabbitmq Component added v1.1" />
+    <MESSAGE value="Redis database server setup is done version1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis database server setup is done version1.0" />
   </component>
 </project>
