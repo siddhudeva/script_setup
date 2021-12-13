@@ -20,10 +20,10 @@ Status $? "Catalogue file Download"
 unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
 Status $? "Unzipping content"
 
-chown roboshop.roboshop catalogue
-
 cd /home/roboshop/catalogue && npm install "&>>${Log_file}"
 Status $? "npm install"
+
+chown roboshop.roboshop catalogue
 
 mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
 Status $? "catalogue services placing "
