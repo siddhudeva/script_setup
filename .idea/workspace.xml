@@ -367,7 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1639376982568</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="assigning permissions to catalogue file">
+      <created>1639377146677</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1639377146677</updated>
+    </task>
+    <task id="LOCAL-00047" summary="assigning permissions to catalogue file">
+      <created>1639377199315</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1639377199315</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
