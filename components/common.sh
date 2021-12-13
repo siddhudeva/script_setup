@@ -9,6 +9,6 @@ Status() {
   fi
 }
 Log_file=/tmp/roboshop.log
-
+rm -rf /tmp/roboshop
 
 
