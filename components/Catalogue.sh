@@ -14,23 +14,16 @@ if [ $? -ne 0 ]; then
 fi
 Status $? "roboshop user status"
 
-sudo su - roboshop &>>"${Log_file}"
-Status $? "Switching to user"
-
-sudo curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
+curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
 Status $? "Catalogue file Download"
 
-sudo unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
+unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
 Status $? "Unzipping content"
 
-exit
-Status $? "exiting from user"
+chown roboshop.roboshop catalogue
 
 cd /home/roboshop/catalogue && npm install "&>>${Log_file}"
 Status $? "npm install"
-
-exit &>>"${Log_file}"
-Status $? "existed from user account"
 
 mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
 Status $? "catalogue services placing "
