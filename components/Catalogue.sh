@@ -22,7 +22,7 @@ Status $? "Unzipping content"
 
 mv catalogue-main catalogue &>>"${Log_file}" && cd catalogue/
 
-npm install "&>>${Log_file}"
+sudo npm install "&>>${Log_file}"
 Status $? "npm install"
 
 chown roboshop.roboshop catalogue
