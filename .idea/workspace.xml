@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f49e747d-2cd4-4ff2-9f7f-28f1d8a46b3d" name="Changes" comment="assigning permissions to catalogue file">
+      <change afterPath="$PROJECT_DIR$/components/databases.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/Catalogue.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/components/common.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sairam\IdeaProjects\script_setup\components" />
+      <recent name="C:\Users\Sairam\IdeaProjects" />
       <recent name="C:\Users\Sairam\IdeaProjects\script_setup\.idea\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -45,27 +49,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00002" summary="Project Setup initiated">
-      <created>1639220026398</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1639220026398</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Project Setup initiated - minor changes have taken in file Location">
-      <created>1639220286826</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1639220286826</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Project Setup initiated - minor modifications have taken on main File">
-      <created>1639223125428</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1639223125428</updated>
-    </task>
     <task id="LOCAL-00005" summary="missing command added">
       <created>1639224059835</created>
       <option name="number" value="00005" />
@@ -395,7 +378,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639378700503</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="assigning permissions to catalogue file">
+      <created>1639378887006</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1639378887006</updated>
+    </task>
+    <task id="LOCAL-00052" summary="assigning permissions to catalogue file">
+      <created>1639378938987</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1639378938987</updated>
+    </task>
+    <task id="LOCAL-00053" summary="assigning permissions to catalogue file">
+      <created>1639379007440</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1639379007440</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

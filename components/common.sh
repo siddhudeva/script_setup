@@ -11,4 +11,9 @@ Status() {
 Log_file=/tmp/roboshop.log
 rm -rf /tmp/roboshop
 
+DOWNLOAD() {
+  if [ -e components/${component}.sh ]; then
+    curl -s -L -o /tmp/${1}.zip "https://github.com/roboshop-devops-project/${1}/archive/main.zip"
+  fi
+}
 

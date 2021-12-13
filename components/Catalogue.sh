@@ -17,10 +17,11 @@ cd && cd /home/roboshop
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
 Status $? "Catalogue file Download"
 
-unzip -o /tmp/catalogue.zip &>>"${Log_file}" && cp /tmp/catalogue-main/* /home/roboshop/catalogue &>>"${Log_file}"
-Status $? "Unzipping content "
+rm -rf /home/roboshop/catalogue && mkdir -p /home/roboshop/catalogue && unzip -o /tmp/catalogue.zip &>>"${Log_file}" && cp -r /tmp/catalogue-main/* /home/roboshop/catalogue &>>"${Log_file}"
+Status $? "Unziping and files moving "
 
-npm install &>>"${Log_file}"
+cd /home/roboshop/catalogue && npm install &>>"${Log_file}"
 Status $? "npm install"
+
 
 
