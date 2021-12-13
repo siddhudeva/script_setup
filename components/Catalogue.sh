@@ -13,19 +13,20 @@ if [ $? -ne 0 ]; then
   useradd roboshop
 fi
 Status $? "roboshop user status"
-
+cd && cd /home/roboshop
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
 Status $? "Catalogue file Download"
 
 unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
 Status $? "Unzipping content"
 
-cd /home/roboshop/catalogue && npm install "&>>${Log_file}"
+cd catalogue/
+npm install "&>>${Log_file}"
 Status $? "npm install"
 
 chown roboshop.roboshop catalogue
 
-mv /home/roboshop/catalogue/systemd.service /etc/systemd/system/catalogue.service
+mv systemd.service /etc/systemd/system/catalogue.service
 Status $? "catalogue services placing "
 
 systemctl daemon-reload &>>"${Log_file}"
