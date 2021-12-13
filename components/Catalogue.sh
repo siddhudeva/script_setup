@@ -20,7 +20,7 @@ Status $? "Catalogue file Download"
 unzip -o /tmp/catalogue.zip &>>"${Log_file}"
 Status $? "Unzipping content"
 
-cp /tmp/catalogue-main/* /home/roboshop
+cp -f /tmp/catalogue-main/* /home/roboshop
 npm install &>>"${Log_file}"
 Status $? "npm install"
 
