@@ -17,10 +17,11 @@ cd && cd /home/roboshop
 curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
 Status $? "Catalogue file Download"
 
-unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
+unzip -o /tmp/catalogue.zip &>>"${Log_file}"
 Status $? "Unzipping content"
 
-cd catalogue/
+mv catalogue-main catalogue &>>"${Log_file}" && cd catalogue/
+
 npm install "&>>${Log_file}"
 Status $? "npm install"
 
