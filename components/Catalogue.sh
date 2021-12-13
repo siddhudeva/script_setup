@@ -26,7 +26,7 @@ sudo npm install &>>"${Log_file}"
 Status $? "npm install"
 
 
-mv systemd.service /etc/systemd/system/catalogue.service
+mv ./systemd.service /etc/systemd/system/catalogue.service
 Status $? "catalogue services placing "
 
 cd .. && chown roboshop.roboshop catalogue
