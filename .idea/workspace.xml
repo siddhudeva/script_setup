@@ -45,13 +45,6 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="Project Setup initiated">
-      <created>1639219980674</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1639219980674</updated>
-    </task>
     <task id="LOCAL-00002" summary="Project Setup initiated">
       <created>1639220026398</created>
       <option name="number" value="00002" />
@@ -381,7 +374,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639377199315</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="assigning permissions to catalogue file">
+      <created>1639378488401</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1639378488401</updated>
+    </task>
+    <task id="LOCAL-00049" summary="assigning permissions to catalogue file">
+      <created>1639378655353</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1639378655353</updated>
+    </task>
+    <task id="LOCAL-00050" summary="assigning permissions to catalogue file">
+      <created>1639378700503</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1639378700503</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
