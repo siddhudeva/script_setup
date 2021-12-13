@@ -14,14 +14,17 @@ if [ $? -ne 0 ]; then
 fi
 Status $? "roboshop user status"
 
-su - roboshop &>>"${Log_file}"
+sudo su - roboshop &>>"${Log_file}"
 Status $? "Switching to user"
 
-curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
+sudo curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/catalogue/archive/main.zip" &>>"${Log_file}"
 Status $? "Catalogue file Download"
 
-unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
+sudo unzip -o /tmp/catalogue.zip &>>"${Log_file}" && mv catalogue-main catalogue
 Status $? "Unzipping content"
+
+exit
+Status $? "exiting from user"
 
 cd /home/roboshop/catalogue && npm install "&>>${Log_file}"
 Status $? "npm install"
