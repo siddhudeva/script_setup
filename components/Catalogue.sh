@@ -25,11 +25,11 @@ mv catalogue-main catalogue &>>"${Log_file}" && cd catalogue/
 sudo npm install &>>"${Log_file}"
 Status $? "npm install"
 
-chown roboshop.roboshop catalogue
 
 mv systemd.service /etc/systemd/system/catalogue.service
 Status $? "catalogue services placing "
 
+cd .. && chown roboshop.roboshop catalogue
 systemctl daemon-reload &>>"${Log_file}"
 systemctl enable catalogue &>>"${Log_file}" && systemctl start catalogue
 Status $? "catalogue service"
